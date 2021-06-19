@@ -1,0 +1,20 @@
+{
+  "title": "Mirror Button",
+  "description": "Mirror a post to an archive",
+  "icon": {
+    "class_name": "ri-file-copy-line",
+    "color": "white",
+    "background_color": "#2a86bf"
+  },
+  "preferences": {
+    "mirrorTo": {
+      "type": "select",
+      "label": "Mirror to",
+      "options": {
+        "archive_is": "archive.is",
+        "archive_org": "The Wayback Machine (archive.org)"
+      },
+      "default": "archive_org"
+    }
+  }
+}
